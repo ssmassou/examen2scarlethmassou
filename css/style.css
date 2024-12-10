@@ -1,0 +1,279 @@
+:root {
+  --color-rojo: #c81f26;
+  --color-verde: #00b494;
+  --color-titulos: #2a2a32;
+  --color-contenido: #2a2a32;
+}
+body {
+  color: var(--color-contenido);
+}
+/*
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Allura";
+}
+*/
+body,
+p,
+span,
+li,
+a {
+  font-family: "Montserrat", sans-serif;
+}
+
+del {
+  color: #2a2a32;
+}
+
+header {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  top: 0;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.15);
+}
+.titulo {
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#instagram {
+  padding: 40px 0;
+}
+#instagram h3 {
+  font-size: 24px;
+}
+#instagram p {
+  font-weight: 300;
+}
+#instagram i {
+  color: var(--color-rojo);
+  font-size: 40px;
+}
+
+/*Hero Carousel*/
+.hero {
+  position: relative;
+}
+
+.carousel-slide img {
+  height: 100vh;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.carousel-caption h1 {
+  font-family: "Allura";
+
+  color: white;
+  font-size: 11rem;
+}
+
+.carousel-caption .extra {
+  font-size: 5rem;
+  color: white;
+  transform: translateY(-47%);
+}
+
+.carousel-caption .collection {
+  font-size: 2rem;
+  color: white;
+  transform: translateY(-160%);
+}
+
+.carousel-caption .btn {
+  background-color: var(--color-rojo);
+  color: white;
+  border-radius: 50px;
+  padding: 10px 30px;
+  transform: translateY(-120%);
+}
+
+.carousel-caption .btn:hover {
+  background-color: var(--color-rojo);
+}
+
+/* star-rating*/
+.star-rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.star-rating i {
+  font-size: 0.7rem;
+  margin-right: 5px;
+}
+
+/* GIFTS*/
+
+
+.gifts {
+	position: relative;
+	align-items: center;
+}
+
+
+
+
+.gifts img {
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 300px;
+  
+}
+
+.parrafo-rojo {
+  font-family: "Montserrat", sans-serif;
+  color: var(--color-rojo);
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.parrafo-negro {
+  font-family: "Montserrat", sans-serif;
+  color: var(--color-contenido);
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: unset;
+}
+
+.off-span {
+	font-size: 4rem;
+}
+
+
+.gift-image {
+background-image: url('../img/gift-box.png');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  padding-top: 1200px;
+  border-radius: 10px;
+}
+
+.segundo-parr{
+	transform: translateY(-130%);
+}
+
+.content-overlay {
+	max-width: 60%;
+  }
+
+.btn-success {
+  background-color: var(--color-verde);
+  color: #ffffff;
+  border: none;
+  border-radius: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.btn-success:hover {
+  background-color: var(--color-verde);
+  color: #ffffff;
+}
+
+/* ARRIVALS*/
+
+.arrivals h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.7rem;
+}
+
+.card {
+  display: flex;
+  border-radius: 3px;
+  height: 100%;
+  overflow: hidden;
+  justify-content: space-between;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+  width: 100%;
+  height: 350px;
+  object-fit: scale-down;
+  background-color: #f8f7f7;
+}
+
+.card-body {
+  padding: 15px;
+  background-color: white;
+}
+
+.parrafo-uno {
+  font-size: 1rem;
+  color: var(--color-contenido);
+  margin-bottom: 5px;
+}
+
+.parrafo-dos {
+  font-size: 1.2rem;
+  color: var(--color-rojo);
+  margin-bottom: 10px;
+}
+
+
+/*CTA*/
+
+/* CTA SECTION */
+.cta-section {
+	background-image: url('../img/sub-bg.jpg'); 
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 4rem 1rem; 
+	color: var(--color-contenido);
+	padding-bottom: 100px;
+  }
+  
+  .cta-title {
+	font-family: "Montserrat", sans-serif;
+	font-size: 2.5rem;
+	margin-bottom: 1rem;
+  }
+  
+  .cta-subtitle {
+	font-family: "Montserrat", sans-serif;
+	font-size: 1.2rem;
+	color: var(--color-contenido);
+  }
+  
+
+
+/* FOOTER*/
+footer {
+  background-color: #fafafa;
+  padding: 30px 0;
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+}
+footer p span {
+  color: var(--color-rojo);
+}
+footer #copy {
+  padding: 20px 0;
+  margin-top: 5%;
+  color: #fff;
+  border-top: 1px dashed rgba(255, 255, 255, 0.15);
+}
